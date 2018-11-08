@@ -9,7 +9,7 @@
     src: awslogs.conf 
     dest: /etc/awslogs 
   notify: restart awslogs
-- name: configure awslogs to collect {{ file }} 
+- name: configure awslogs to collect "{{ file }}"
   ini_file: 
     path: "/etc/awslogs/config/{{ name }}.conf" 
     section: "{{ file }}" 
