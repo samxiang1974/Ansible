@@ -12,4 +12,4 @@
       vars:
         name: helloworld
         file: /var/log/helloworld/helloworld.log
-        datetime_format: "%Y-%m-%dT%H:%M:%S.%f"
+        datetime_format: "%b %d %H:%M:%S"
