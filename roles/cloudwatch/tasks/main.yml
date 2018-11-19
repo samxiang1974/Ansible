@@ -8,4 +8,4 @@
   cron:
     name: "cloudwatchmon"
     minute: "*/5"
-    job: /usr/local/bin/mon-put-instance-stats.py --auto-scaling --loadavg-percpu --mem-util --disk-space-util --disk-path=/ --from-cron"
+    job: /usr/local/bin/mon-put-instance-stats.py --auto-scaling --loadavg-percpu --mem-util --disk-space-util --disk-path=/ --from-cron
