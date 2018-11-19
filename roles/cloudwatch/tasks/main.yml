@@ -1,7 +1,7 @@
 ---
 # tasks file for cloudwatch
  - name: Installing cloudwatchmon
-  pip:
+   pip:
     name: cloudwatchmon
 
 - name: Execute cloudwatchmon every 5min
